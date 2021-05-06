@@ -153,7 +153,6 @@ function generateBackground() {
 }
 
 function generateGradient() {
-  console.log("Clicked");
   let indices = [0, 0, 0];
   document.getElementsByClassName("color-name")[0].textContent = "";
   document.getElementsByClassName("color-hex")[0].textContent = "";
